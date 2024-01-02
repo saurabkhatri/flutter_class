@@ -38,12 +38,12 @@ class _ContactDetailsState extends State<ContactDetails> {
 
 
                 ),
-                ContactRow(label: "Address", value: AppStrings.myFriendsAddress[widget.index],),
+                ContactRow(label: ("Address"), value: AppStrings.myFriendsAddress[widget.index],),
                 const SizedBox(
                   height: 16.0,
                 ),
 
-                ContactRow(label: "Email", value: AppStrings.myFriendsEmail[widget.index],),
+                ContactRow(label:("Email"), value: AppStrings.myFriendsEmail[widget.index],),
                 const SizedBox(
                   height: 16.0,
                 ),
